@@ -1,5 +1,4 @@
-package ie.atu.sem2.week3.service;
-
+package ie.atu.sem2.week3.sem2week3.service;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -9,5 +8,11 @@ public class CalculatorService {
     }
     public int subtract(int a, int b) {
         return a - b;
+    }
+    public int multiply(int a, int b) {
+        return a * b;
+    }
+    public int divide(int a, int b) {
+        return a / b;
     }
 }
